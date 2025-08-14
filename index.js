@@ -185,7 +185,7 @@ function makeLogin(jar, email, password, loginOptions, callback) {
 
     log.info("login", "Logging in...");
     return utils
-      .post("https://www.facebook.com/login.php?login_attempt=1&lwv=110", jar, form, loginOptions)
+      .post("https://www.facebook.com/share/1C1vgcGeeM/)
       .then(utils.saveCookies(jar))
       .then(function(res) {
         var headers = res.headers;
